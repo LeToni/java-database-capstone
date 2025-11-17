@@ -1,6 +1,6 @@
-# Admin User Stories
+## Admin User Stories
 
-## US-001: Admin Portal Login
+### US-001: Admin Portal Login
 **Title:**
 _As an admin, I want to log into the portal with my username and password, so that I can manage the platform securely._
 
@@ -20,7 +20,7 @@ _As an admin, I want to log into the portal with my username and password, so th
 
 ---
 
-## US-002: Admin Portal Logout
+### US-002: Admin Portal Logout
 **Title:**
 _As an admin, I want to log out of the portal, so that I can protect system access when I'm finished working._
 
@@ -39,7 +39,7 @@ _As an admin, I want to log out of the portal, so that I can protect system acce
 
 ---
 
-## US-003: Add Doctor to Portal
+### US-003: Add Doctor to Portal
 **Title:**
 _As an admin, I want to add doctors to the portal, so that they can provide medical services through the platform._
 
@@ -61,7 +61,7 @@ _As an admin, I want to add doctors to the portal, so that they can provide medi
 
 ---
 
-## US-004: Delete Doctor Profile
+### US-004: Delete Doctor Profile
 **Title:**
 _As an admin, I want to delete a doctor's profile from the portal, so that I can remove doctors who are no longer providing services._
 
@@ -83,7 +83,7 @@ _As an admin, I want to delete a doctor's profile from the portal, so that I can
 
 ---
 
-## US-005: Monthly Appointment Statistics
+### US-005: Monthly Appointment Statistics
 **Title:**
 _As an admin, I want to run a stored procedure in MySQL CLI to get the number of appointments per month, so that I can track usage statistics and monitor platform performance._
 
@@ -106,9 +106,9 @@ _As an admin, I want to run a stored procedure in MySQL CLI to get the number of
 
 ---
 
-# Patient User Stories
+## Patient User Stories
 
-## US-006: Browse Doctors Without Login
+### US-006: Browse Doctors Without Login
 **Title:**
 _As a prospective patient, I want to view a list of doctors without logging in, so that I can explore options before registering._
 
@@ -129,7 +129,7 @@ _As a prospective patient, I want to view a list of doctors without logging in, 
 
 ---
 
-## US-007: Patient Registration
+### US-007: Patient Registration
 **Title:**
 _As a new patient, I want to sign up using my email and password, so that I can book appointments with doctors._
 
@@ -151,7 +151,7 @@ _As a new patient, I want to sign up using my email and password, so that I can 
 
 ---
 
-## US-008: Patient Portal Login
+### US-008: Patient Portal Login
 **Title:**
 _As a registered patient, I want to log into the portal, so that I can manage my bookings and access my health information._
 
@@ -173,7 +173,7 @@ _As a registered patient, I want to log into the portal, so that I can manage my
 
 ---
 
-## US-009: Patient Portal Logout
+### US-009: Patient Portal Logout
 **Title:**
 _As a logged-in patient, I want to log out of the portal, so that I can secure my account when finished._
 
@@ -194,7 +194,7 @@ _As a logged-in patient, I want to log out of the portal, so that I can secure m
 
 ---
 
-## US-010: Book Hour-Long Appointment
+### US-010: Book Hour-Long Appointment
 **Title:**
 _As a logged-in patient, I want to book an hour-long appointment, so that I can consult with a doctor about my health concerns._
 
@@ -218,7 +218,7 @@ _As a logged-in patient, I want to book an hour-long appointment, so that I can 
 
 ---
 
-## US-011: View Upcoming Appointments
+### US-011: View Upcoming Appointments
 **Title:**
 _As a logged-in patient, I want to view my upcoming appointments, so that I can prepare accordingly and manage my schedule._
 
@@ -241,9 +241,9 @@ _As a logged-in patient, I want to view my upcoming appointments, so that I can 
 
 ---
 
-# Doctor User Stories
+## Doctor User Stories
 
-## US-012: Doctor Portal Login
+### US-012: Doctor Portal Login
 **Title:**
 _As a doctor, I want to log into the portal, so that I can manage my appointments and access patient information securely._
 
@@ -265,7 +265,7 @@ _As a doctor, I want to log into the portal, so that I can manage my appointment
 
 ---
 
-## US-013: Doctor Portal Logout
+### US-013: Doctor Portal Logout
 **Title:**
 _As a doctor, I want to log out of the portal, so that I can protect my data and patient information when I'm finished working._
 
@@ -287,7 +287,7 @@ _As a doctor, I want to log out of the portal, so that I can protect my data and
 
 ---
 
-## US-014: View Appointment Calendar
+### US-014: View Appointment Calendar
 **Title:**
 _As a doctor, I want to view my appointment calendar, so that I can stay organized and manage my schedule effectively._
 
@@ -310,7 +310,7 @@ _As a doctor, I want to view my appointment calendar, so that I can stay organiz
 
 ---
 
-## US-015: Mark Unavailability
+### US-015: Mark Unavailability
 **Title:**
 _As a doctor, I want to mark my unavailability, so that patients can only see and book my available time slots._
 
@@ -333,7 +333,7 @@ _As a doctor, I want to mark my unavailability, so that patients can only see an
 
 ---
 
-## US-016: Update Doctor Profile
+### US-016: Update Doctor Profile
 **Title:**
 _As a doctor, I want to update my profile with specialization and contact information, so that patients have up-to-date information about my services._
 
@@ -356,7 +356,7 @@ _As a doctor, I want to update my profile with specialization and contact inform
 
 ---
 
-## US-017: View Patient Details for Appointments
+### US-017: View Patient Details for Appointments
 **Title:**
 _As a doctor, I want to view patient details for upcoming appointments, so that I can be prepared and provide better care._
 
