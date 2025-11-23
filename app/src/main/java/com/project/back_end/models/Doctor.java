@@ -37,13 +37,13 @@ public class Doctor {
     private String password;
 
     @NotNull
-    @Pattern(regexp = "^[0-9]{10}$")
-    @Column(nullable = false, length = 10)
+    @Pattern(regexp = "^(?=(?:.*\\d){10}$)[0-9\\s-]+$")
+    @Column(nullable = false, length = 20)
     private String phone;
 
     @ElementCollection
     @CollectionTable(name = "doctor_available_times", joinColumns = @JoinColumn(name = "doctor_id"))
-    @Column(name = "available_time")
+    @Column(name = "available_times")
     private List<String> availableTimes = new ArrayList<>();
 
     public Doctor() {}
